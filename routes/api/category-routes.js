@@ -7,8 +7,15 @@ router.get('/', (req, res) => {
   // find all categories
   // be sure to include its associated Products
   Category.findAll({
-
+include:{
+  model: Product,
+  attributes:['id', 'product_name','price', 'stock','category_id']
+}
   }).then(db => {
+    if(!db){
+      res.status(404).json({message: 'Not found any categories'});
+      return;
+    }
 
   })
   res.json(db);
@@ -17,7 +24,7 @@ router.get('/', (req, res) => {
 router.get('/:id', (req, res) => {
   // find one category by its `id` value
   // be sure to include its associated Products
-  
+
 });
 
 router.post('/', (req, res) => {
