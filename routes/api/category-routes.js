@@ -16,9 +16,12 @@ include:{
       res.status(404).json({message: 'Not found any categories'});
       return;
     }
-
+    res.json(db);
+  }).catch(error =>{
+    res.status(500).json(error);
+    console.log(error);
   })
-  res.json(db);
+  
 });
 
 router.get('/:id', (req, res) => {
