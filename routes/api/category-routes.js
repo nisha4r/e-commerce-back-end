@@ -39,7 +39,9 @@ router.get('/:id', (req, res) => {
   }).then(data => {
     if (!data) {
       res.status(404).json({ message: 'Requested Category is not found' });
+      return;
     }
+    res.json(data);
   }).catch(error => {
     res.status(500).json(error);
     console.log(error);
