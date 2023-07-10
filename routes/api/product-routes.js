@@ -8,10 +8,14 @@ router.get('/', (req, res) => {
   // find all products
   // be sure to include its associated Category and Tag data
  Product.findAll({
-    include: {
+    include: [{
       model: Category,
-      attributes: ['id', 'product_name', 'price', 'stock']
-    }
+      attributes: ['category_name']
+    },
+    {
+      model: Tag,
+      attributes: ['tag_name']
+    }]
   }).then(db => {
     if (!db) {
       res.status(404).json({ message: 'Not found any products' });
