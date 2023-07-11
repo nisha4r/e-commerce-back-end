@@ -26,6 +26,11 @@ THEN I am able to successfully create, update, and delete data in my database
 ```
 ## Screenshots
 
+### Install & Start Application
+- Install Video: https://drive.google.com/file/d/1ms1imQz_5pFNTlrVNqKkcpLIg0XvNIJL/view
+<br>
+![Install & Start](./public/images/Install%20and%20Start%20App.gif)
+
 ### Category API
 - Category API Video : https://drive.google.com/file/d/1i-dz9IheHjbd9H04azsQ39QK9cCMgBa7/view
 <br>
@@ -42,7 +47,7 @@ THEN I am able to successfully create, update, and delete data in my database
 ![Tag](./public/images/TagAPI.gif)
 
 
-## Install Instruction
+## Install Instruction & Steps:
 <ol>
 <li> npm i </li>
 <li> mysql -u root -p </li>
