@@ -28,17 +28,17 @@ THEN I am able to successfully create, update, and delete data in my database
 
 ### Install & Start Application
 - Install Video: https://drive.google.com/file/d/1ms1imQz_5pFNTlrVNqKkcpLIg0XvNIJL/view
-<br>
+
 ![Install & Start](./public/images/Install%20and%20Start%20App.gif)
 
 ### Category API
 - Category API Video : https://drive.google.com/file/d/1i-dz9IheHjbd9H04azsQ39QK9cCMgBa7/view
-<br>
+
 ![Category](./public/images/CategoryAPI.gif)
 
 ### Product API 
 - Product API Video: https://drive.google.com/file/d/1678k4vKeFB138ySJxcwrZ0Itz1pjbNVx/view
-<br>
+
 ![Product](./public/images/ProudctAPI.gif)
 
 ### Tag API
