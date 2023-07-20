@@ -43,7 +43,7 @@ THEN I am able to successfully create, update, and delete data in my database
 
 ### Tag API
 - Tag API Video: https://drive.google.com/file/d/1RA8B_sZ-6_M7Zagfin61DhKzxNjt-eFH/view
-<br>
+
 ![Tag](./public/images/TagAPI.gif)
 
 
